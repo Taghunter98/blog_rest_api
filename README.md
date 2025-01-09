@@ -2,12 +2,16 @@
 
 A Flask-based RESTful API that interacts with a MySQL database to manage users and blog entries. This project is hosted on AWS RDS for the database and allows for CRUD operations through endpoints.
 
+---
+
 ## Features
 
 - **User Management**: Add, retrieve, update, and delete user data.
 - **Blog Management**: Add, retrieve, update, and delete blog entries.
 - **Secure Database Connection**: Uses environment variables and SSL for database connections.
 - **Scalable Design**: Built with RESTful principles to support future expansion.
+
+---
 
 ## Getting Started
 
@@ -60,6 +64,8 @@ A Flask-based RESTful API that interacts with a MySQL database to manage users a
    flask run
    ```
 
+---
+
 ## Usage
 
 ### API Endpoints
@@ -70,6 +76,8 @@ A Flask-based RESTful API that interacts with a MySQL database to manage users a
 - **Retrieve Users**: `GET /users`
 - **Update a User**: `PUT /users/<id>`
 - **Delete a User**: `DELETE /users/<id>`
+
+---
 
 #### Blogs
 
@@ -108,6 +116,8 @@ A Python script (`fetch_blog_data.py`) is included for interacting with the API 
    ```
 
    Use the `--update` and `-u` or `-b` flag and pass the blog and `user_id` followed by the new name, email and password.
+
+---
 
 ## Deployment
 
